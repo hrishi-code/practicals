@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delicious Bites - Home</title>
+
+    <!-- Internal CSS (Merged External CSS Here) -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0; /* Inline merged here */
+        }
+
+        h1 {
+            color: darkred;
+            text-align: center;
+        }
+
+        h2 {
+            color: darkgreen;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        ul {
+            list-style-type: square;
+            width: 50%;
+            margin: 0 auto;
+            font-size: 18px;
+        }
+
+        .menu-table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        .menu-table th, .menu-table td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        form {
+            width: 300px;
+            margin: auto;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: darkred;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: crimson;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to Delicious Bites!</h1>
+
+    <!-- Image with link (Online image instead of local) -->
+    <a href="https://www.example-restaurant.com" target="_blank">
+        <img src="https://images.unsplash.com/photo-1555992336-cf5cc9f0c708" alt="Restaurant Image" width="600" height="400" style="display: block; margin: 20px auto;">
+    </a>
+
+    <h2>About Us</h2>
+    <p>We serve the most delicious food with love and care. Our chefs are internationally recognized!</p>
+
+    <h2>Our Menu</h2>
+    <!-- Menu in table format -->
+    <table class="menu-table">
+        <tr>
+            <th>Dish</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Margherita Pizza</td>
+            <td>Classic cheese and tomato pizza</td>
+            <td>₹300</td>
+        </tr>
+        <tr>
+            <td>Pasta Alfredo</td>
+            <td>Creamy white sauce pasta</td>
+            <td>₹350</td>
+        </tr>
+        <tr>
+            <td>Chocolate Cake</td>
+            <td>Rich, moist chocolate cake slice</td>
+            <td>₹150</td>
+        </tr>
+    </table>
+
+    <h2>Specialties</h2>
+    <!-- List -->
+    <ul>
+        <li>Authentic Italian Cuisine</li>
+        <li>Fresh Organic Ingredients</li>
+        <li>Cozy Ambiance</li>
+        <li>Friendly Staff</li>
+    </ul>
+
+    <!-- Contact Form -->
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <footer>
+        <p>© 2025 Delicious Bites Restaurant. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
